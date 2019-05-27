@@ -18,3 +18,15 @@ jhipster:
 dm:
     loggin:
         logpath: \app\log\
+
+# DM - Rabbit Config
+spring:
+    rabbitmq:
+        host: 10.10.252.54
+        port: 5672
+        password: guest
+        username: guest
+        listener:
+            simple:
+                acknowledge-mode: manual
+                prefetch: 1
