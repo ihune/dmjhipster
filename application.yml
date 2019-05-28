@@ -32,7 +32,7 @@ spring:
                 prefetch: 1
     datasource:                     #mcsmaildownload
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:oracle:thin:@//db_ora001:1521/ORCL.DMPA.ITA
+        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
         username: DM_CONDIV_ENTI_PAL
         password: cui2010
         auto-commit: false
@@ -42,7 +42,7 @@ spring:
 procedimenti:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:oracle:thin:@//db_ora001:1521/ORCL.DMPA.ITA
+        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
         username: DM_PAL_PROCEDIMENTI
         password: cui2010
         driver-class-name: oracle.jdbc.OracleDriver
