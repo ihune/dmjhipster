@@ -49,4 +49,10 @@ procedimenti:
         auto-commit: false
         hikari:
             auto-commit: false
-
+ mailgw:
+    datasource:
+        driverClassName: oracle.jdbc.OracleDriver
+        dataSourceClassName: oracle.jdbc.pool.OracleDataSource
+        url: jdbc:oracle:thin:@10.10.252.210:1521:xe
+        username: dm_pal_sportelli
+        password: password  
