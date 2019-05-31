@@ -49,7 +49,7 @@ procedimenti:
         auto-commit: false
         hikari:
             auto-commit: false
- mailgw:
+mailgw:
     datasource:
         driverClassName: oracle.jdbc.OracleDriver
         dataSourceClassName: oracle.jdbc.pool.OracleDataSource
