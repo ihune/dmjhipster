@@ -13,7 +13,16 @@ jhipster:
         authentication:
             jwt:
                 secret: bXktc2VjcmV0LXRva2VuLXRvLWNoYW5nZS1pbi1wcm9kdWN0aW9uLWFuZC10by1rZWVwLWluLWEtc2VjdXJlLXBsYWNl
-   
+    logging:
+        logstash:
+            enabled: true
+            host: 10.10.252.54
+            port: 5000
+            queueSize: 512
+    metrics:
+        logs:
+            enabled: true
+    	    reportFrequency: 60 # seconds
 # DM 
 dm:
     loggin:
