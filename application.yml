@@ -22,7 +22,7 @@ jhipster:
     metrics:
         logs:
             enabled: true
-    	    reportFrequency: 60 # seconds
+            reportFrequency: 60 # seconds
 # DM 
 dm:
     loggin:
