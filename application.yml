@@ -26,7 +26,7 @@ jhipster:
 # DM 
 dm:
     loggin:
-        logpath: \app\log\
+        logpath: /app/log/
 
 # DM - Rabbit Config
 spring:
