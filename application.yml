@@ -32,10 +32,14 @@ dm:
             host: 10.10.252.54
             port: 5000
             queueSize: 512
-            monitoringhost:
-            monitoringport:
-            monitoringkey:
-
+            monitoringhost: 10.10.252.54
+            monitoringport: 5000
+            monitoringkey: Message-ID
+application:
+     registry:
+        host:
+        port:
+        
 # DM - Rabbit Config
 spring:
     rabbitmq:
