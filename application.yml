@@ -35,6 +35,7 @@ dm:
             monitoringhost: 10.10.252.54
             monitoringport: 5000
             monitoringkey: Message-ID
+            monitoringqueueSize: 512
 application:
      registry: 
         host: 10.10.252.54
