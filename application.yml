@@ -27,16 +27,16 @@ jhipster:
 dm:
     loggin:
         logpath: /app/log/
-        logstash:
-            enabled: true
-            host: 10.10.252.54
-            port: 5000
-            queueSize: 512
-            monitoringhost: 10.10.252.54
-            monitoringport: 5000
-            monitoringkey: Message-ID
-application:
-     registry: 
+#        logstash:
+#            enabled: true
+#            host: 10.10.252.54
+#            port: 5000
+#            queueSize: 512
+#            monitoringhost: 10.10.252.54
+#            monitoringport: 5000
+#            monitoringkey: Message-ID
+#application:
+#     registry: 
 #        host: 10.10.252.54
 #        port: 8761
         
