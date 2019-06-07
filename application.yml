@@ -25,7 +25,7 @@ jhipster:
             reportFrequency: 60 # seconds
 # DM 
 dm:
-    logging:
+    loggin:
         logpath: /app/log/
         logstash:
             enabled: true
