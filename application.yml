@@ -37,8 +37,8 @@ dm:
             monitoringkey: Message-ID
 application:
      registry: 
-        host: 10.10.252.54
-        port: 8761
+#        host: 10.10.252.54
+#        port: 8761
         
 # DM - Rabbit Config
 spring:
