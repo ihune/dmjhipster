@@ -36,10 +36,6 @@ dm:
             monitoringport: 5000
             monitoringkey: Message-ID
             monitoringqueueSize: 512
-application:
-     registry: 
-        host: 10.10.252.54
-        port: 8761
         
 # DM - Rabbit Config
 spring:
