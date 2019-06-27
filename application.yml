@@ -74,3 +74,7 @@ mailgw:
         url: jdbc:oracle:thin:@10.10.252.210:1521:xe
         username: dm_pal_sportelli
         password: password  
+        auto-commit: false
+        hikari:
+           auto-commit: false
+        type: com.zaxxer.hikari.HikariDataSource
