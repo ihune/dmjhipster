@@ -37,7 +37,7 @@ dm:
             monitoringkey: Message-ID
             monitoringqueueSize: 512
     resilienza:
-        tempo_attesa: 5 #in microsecondi
+        tempo_attesa: 5000 #in millisecondi
         massimo_tentativi: 2
   
 # DM - Rabbit Config
