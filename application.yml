@@ -36,7 +36,10 @@ dm:
             monitoringport: 5000
             monitoringkey: Message-ID
             monitoringqueueSize: 512
-        
+    resilienza:
+        tempo_attesa: 5 #in microsecondi
+        massimo_tentativi: 2
+  
 # DM - Rabbit Config
 spring:
     rabbitmq:
