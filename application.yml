@@ -16,9 +16,9 @@ jhipster:
     logging:
         logstash:
             enabled: true
-            #host: 10.10.252.54
-            #port: 5000
-            #queueSize: 512
+            host: 10.10.252.54
+            port: 5000
+            queueSize: 512
     metrics:
         logs:
             enabled: true
@@ -29,8 +29,8 @@ dm:
         logpath: /app/log/
         logstash:
             enabled: true
-            #host: 10.10.252.54        SOSPESO PER DEBUG LOGSTASH-FILEBEAT
-            #port: 5000
+            host: 10.10.252.54
+            port: 5000
             queueSize: 512
             monitoringhost: 10.10.252.54
             monitoringport: 5000
