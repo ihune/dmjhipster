@@ -40,9 +40,9 @@ dm:
         tempo_attesa: 5000 #in millisecondi
         massimo_tentativi: 2
     mail:
-        cdApl: 1
-        cdRepo: 2
-        idUser: 3
+        cdApl: BPE
+        cdRepo: FSYS
+        idUser: admin
         
 # DM - Rabbit Config
 spring:
