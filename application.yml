@@ -94,3 +94,12 @@ mailgw:
         hikari:
            auto-commit: false
         type: com.zaxxer.hikari.HikariDataSource
+filemanager:
+    datasource:
+       type: com.zaxxer.hikari.HikariDataSource
+       driver: org.postgresql.Driver
+       url: jdbc:postgresql://dbFilemanager:5432/db_filemanager
+       username: postgres
+       password: password
+       hikari:
+           auto-commit: false
