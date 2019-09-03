@@ -47,7 +47,7 @@ dm:
 # DM - Rabbit Config
 spring:
     rabbitmq:
-        host: akronext-rabbitmq
+        host: 10.10.252.54
         port: 5672
         password: guest
         username: guest
