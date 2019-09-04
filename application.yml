@@ -46,15 +46,6 @@ dm:
         
 # DM - Rabbit Config
 spring:
-    rabbitmq:
-        host: 10.10.252.54
-        port: 5672
-        password: guest
-        username: guest
-        listener:
-            simple:
-                acknowledge-mode: manual
-                prefetch: 1
     datasource:                     #mcsmaildownload
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
