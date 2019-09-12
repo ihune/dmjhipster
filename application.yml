@@ -15,20 +15,20 @@ jhipster:
                 secret: bXktc2VjcmV0LXRva2VuLXRvLWNoYW5nZS1pbi1wcm9kdWN0aW9uLWFuZC10by1rZWVwLWluLWEtc2VjdXJlLXBsYWNl
     logging:
         logstash:
-            enabled: true
+            enabled: false
             host: 10.10.252.54
             port: 5000
             queueSize: 512
     metrics:
         logs:
-            enabled: true
+            enabled: false
             reportFrequency: 60 # seconds
 # DM 
 dm:
     logging:
         logpath: /app/log/
         logstash:
-            enabled: true
+            enabled: false
             host: 10.10.252.54
             port: 5000
             queueSize: 512
