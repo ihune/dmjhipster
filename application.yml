@@ -58,7 +58,8 @@ spring:
         password: password        
         auto-commit: false
         hikari:
-            auto-commit: false
+            auto-commit:
+            poolName:
 #mcsmaildownload            
 procedimenti:
     datasource:
