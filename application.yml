@@ -48,9 +48,9 @@ dm:
 spring:
     datasource:                     #mcsmaildownload
         type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
-        username: DM_CONDIV_ENTI_PAL
-        password: cui2010
+       # url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+       # username: DM_CONDIV_ENTI_PAL
+       # password: cui2010
         auto-commit: false
         hikari:
             auto-commit: false
