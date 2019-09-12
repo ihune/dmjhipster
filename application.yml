@@ -57,9 +57,7 @@ spring:
         username: dm_pal_sportelli
         password: password        
         auto-commit: false
-        hikari:
-            auto-commit:
-            poolName:
+
 #mcsmaildownload            
 procedimenti:
     datasource:
