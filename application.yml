@@ -90,6 +90,8 @@ mailgw:
            auto-commit: false
         type: com.zaxxer.hikari.HikariDataSource
 filemanager:
+    logging:
+       logging-file: ./mylog.log
     datasource:
        type: com.zaxxer.hikari.HikariDataSource
        driver: org.postgresql.Driver
