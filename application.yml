@@ -70,22 +70,22 @@ procedimenti:
         hikari:
             auto-commit: false
 login:
-  datasource:
-    auto-commit: false
-    driver-class-name: oracle.jdbc.OracleDriver
-    hikari:
+    datasource:
       auto-commit: false
-    password: cui2010
-    type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
-    username: DM_LOGIN_PAL
+      driver-class-name: oracle.jdbc.OracleDriver
+      hikari:
+          auto-commit: false
+      password: cui2010
+      type: com.zaxxer.hikari.HikariDataSource
+      url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+      username: DM_LOGIN_PAL
 
 mailgw:
-  datasource:
-    driver-class-name: oracle.jdbc.OracleDriver    
-    url: jdbc:oracle:thin:@//10.10.252.210:1521/xe
-    username: dm_pal_sportelli
-    password: password
+    datasource:
+        driver-class-name: oracle.jdbc.OracleDriver    
+        url: jdbc:oracle:thin:@//10.10.252.210:1521/xe
+        username: dm_pal_sportelli
+        password: password
 
 filemanager:
     logging:
