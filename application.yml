@@ -46,17 +46,11 @@ dm:
         
 # DM - Rabbit Config
 spring:
-    datasource:                     #mcsmaildownload
+    datasource:                     #default
         type: com.zaxxer.hikari.HikariDataSource
-       # url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
-       # username: DM_CONDIV_ENTI_PAL
-       # password: cui2010
-        driverClassName: oracle.jdbc.OracleDriver
-        dataSourceClassName: oracle.jdbc.pool.OracleDataSource  
-        url: jdbc:oracle:thin:@10.10.252.210:1521:xe
-        username: dm_pal_sportelli
-        password: password        
-        auto-commit: false
+        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+        username: DM_CONDIV_ENTI_PAL
+        password: cui2010
 
 #mcsmaildownload            
 procedimenti:
