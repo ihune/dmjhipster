@@ -80,9 +80,6 @@ mailgw:
         url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
         username: akromail
         password: password        
-        #url: jdbc:oracle:thin:@//10.10.252.210:1521/xe
-        #username: dm_pal_sportelli
-        #password: password
 
 filemanager:
     logging:
