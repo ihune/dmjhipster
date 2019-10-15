@@ -51,6 +51,15 @@ spring:
         url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
         username: DM_CONDIV_ENTI_PAL
         password: cui2010
+    rabbitmq:
+        host: akronext-rabbitmq
+        listener:
+            simple:
+            acknowledge-mode: manual
+            prefetch: 1
+        password: guest
+        port: 5672
+        username: guest
 
 #mcsmaildownload            
 procedimenti:
