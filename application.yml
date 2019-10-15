@@ -57,9 +57,9 @@ spring:
             simple:
             acknowledge-mode: manual
             prefetch: 1
-        password: guest
+        password: download
         port: 5672
-        username: guest
+        username: download
 
 #mcsmaildownload            
 procedimenti:
