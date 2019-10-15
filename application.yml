@@ -52,7 +52,7 @@ spring:
         username: DM_CONDIV_ENTI_PAL
         password: cui2010
     rabbitmq:
-        host: akronext-rabbitmq
+        host: 10.10.252.52
         listener:
             simple:
             acknowledge-mode: manual
