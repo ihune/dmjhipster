@@ -46,14 +46,14 @@ dm:
         
 # DM - Rabbit Config
 spring:
-    datasource:                     #default
-        auto-commit: false
-        hikari:
-            auto-commit: false    
-        type: com.zaxxer.hikari.HikariDataSource
-        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
-        username: DM_CONDIV_ENTI_PAL
-        password: cui2010
+    #datasource:                     #default
+    #    auto-commit: false
+    #    hikari:
+    #        auto-commit: false    
+    #    type: com.zaxxer.hikari.HikariDataSource
+    #    url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+    #    username: DM_CONDIV_ENTI_PAL
+    #    password: cui2010
     rabbitmq:
         host: 10.10.252.52
         listener:
