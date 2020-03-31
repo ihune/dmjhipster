@@ -1,4 +1,4 @@
-# DM Spring Cloud Config per le applicazioni su stack JHipster
+# Spring Cloud Config
 
 Questo è il file di configurazione che il Registry delle applicazioni sullo stack JHipster legge all'avvio.
 
