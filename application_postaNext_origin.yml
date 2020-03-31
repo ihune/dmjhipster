@@ -1,0 +1,106 @@
+# ===================================================================
+# DM JHipster Sample Spring Cloud Config.
+# ===================================================================
+
+# Property used on app startup to check the config server status
+configserver:
+    name: DM JHipster Registry config server
+    status: Connected to the JHipster Registry config server, using https://github.com/ihune/dmjhipster !
+
+# Default JWT secret token (to be changed in production!)
+jhipster:
+    security:
+        authentication:
+            jwt:
+                secret: bXktc2VjcmV0LXRva2VuLXRvLWNoYW5nZS1pbi1wcm9kdWN0aW9uLWFuZC10by1rZWVwLWluLWEtc2VjdXJlLXBsYWNl
+    logging:
+        logstash:
+            enabled: false
+            host: 10.10.252.54
+            port: 5000
+            queueSize: 512
+    metrics:
+        logs:
+            enabled: false
+            reportFrequency: 60 # seconds
+# DM 
+dm:
+    logging:
+        logpath: /app/log/
+        logstash:
+            enabled: false
+            host: 10.10.252.54
+            port: 5000
+            queueSize: 512
+            monitoringhost: 10.10.252.54
+            monitoringport: 5000
+            monitoringkey: Message-ID
+            monitoringqueueSize: 512
+    resilienza:
+        tempo_attesa: 5000 #in millisecondi
+        massimo_tentativi: 2
+    mail:
+        cdApl: BPE
+        cdRepo: FSYS
+        idUser: admin
+        
+# DM - Rabbit Config
+spring:
+    #datasource:                     #default
+    #    auto-commit: false
+    #    hikari:
+    #        auto-commit: false    
+    #    type: com.zaxxer.hikari.HikariDataSource
+    #    url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+    #    username: DM_CONDIV_ENTI_PAL
+    #    password: cui2010
+    rabbitmq:
+        host: 10.10.252.52
+        listener:
+            simple:
+            acknowledge-mode: manual
+            prefetch: 1
+        password: download
+        port: 5672
+        username: download
+
+#mcsmaildownload            
+procedimenti:
+    datasource:
+        type: com.zaxxer.hikari.HikariDataSource
+        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+        username: DM_PAL_PROCEDIMENTI
+        password: cui2010
+        driver-class-name: oracle.jdbc.OracleDriver
+        auto-commit: false
+        hikari:
+            auto-commit: false
+login:
+    datasource:
+      auto-commit: false
+      driver-class-name: oracle.jdbc.OracleDriver
+      hikari:
+          auto-commit: false
+      password: cui2010
+      type: com.zaxxer.hikari.HikariDataSource
+      url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+      username: DM_LOGIN_PAL
+
+mailgw:
+    datasource:
+        driverClassName: oracle.jdbc.OracleDriver
+        url: jdbc:oracle:thin:@//192.168.227.132:1521/ORCL.DMPA.ITA
+        username: akromail
+        password: password        
+
+filemanager:
+    logging:
+       logging-file: ./mylog.log
+    datasource:
+       type: com.zaxxer.hikari.HikariDataSource
+       driver: org.postgresql.Driver
+       url: jdbc:postgresql://dbFilemanager:5432/db_filemanager
+       username: postgres
+       password: password
+       hikari:
+           auto-commit: false
