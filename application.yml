@@ -30,7 +30,7 @@ ribbon:
 
 
 zuul:
-  ignoredServices: ['mcsa', 'mcsb']
+#  ignoredServices: ['mcsa', 'mcsb']
    host:
       time-to-live: -1
       connect-timeout-millis: 5000
